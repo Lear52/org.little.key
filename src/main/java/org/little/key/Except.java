@@ -1,8 +1,6 @@
 package org.little.key;
-
 /** 
  * class Except
- *
  * 
  * @author <b>Andrey Shadrin</b>, Copyright &#169; 2002 - 2020
  * @version 1.5

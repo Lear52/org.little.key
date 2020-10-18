@@ -1,7 +1,7 @@
 package org.little.key;
 
 import java.util.Date;
-
+ 
 public class kMessage{
     private   byte  []           body_bin        ;
                                                  

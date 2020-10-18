@@ -1,5 +1,5 @@
 package org.little.key;
-
+ 
 public class _ByteBuilder{
 
     private byte[] value;
