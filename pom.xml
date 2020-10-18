@@ -56,11 +56,6 @@
                         <configuration>
                             <shadedArtifactAttached>true</shadedArtifactAttached>
                             <shadedClassifierName>little-shade</shadedClassifierName>
-                            <artifactSet>
-                                <excludes>
-                                    <exclude>org.bouncycastle:*</exclude>
-                                </excludes>
-                            </artifactSet>
 
                             <filters>
                                 <filter>
@@ -97,7 +92,19 @@
 
         <dependencies>
 
+<!--
+<dependency>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcprov-jdk16</artifactId>
+    <version>1.46</version>
+</dependency>
 
+<dependency>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcprov-ext-jdk16</artifactId>
+    <version>1.46</version>
+</dependency>
+-->
            <dependency>
                <groupId>org.bouncycastle</groupId>
                <artifactId>bcpkix-jdk15on</artifactId>
@@ -107,9 +114,8 @@
                <groupId>org.bouncycastle</groupId>
                <artifactId>bcprov-jdk15on</artifactId>
                <version>1.66</version>
-           </dependency>
-
-           <dependency>
+            </dependency>
+            <dependency>
                <groupId>org.slf4j</groupId>
                <artifactId>slf4j-log4j12</artifactId>
                <version>1.7.30</version>
